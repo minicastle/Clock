@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap" rel="stylesheet">
+    <script src="main.js" defer></script>
+    <link rel = "icon" href ="./image/clock_shape.png" ></link>
+    <title>Clock</title>
+  </head>
+  <body>
+    <div class="clock">
+      <img src="./image/clock.png" alt="">
+      <div class="hour">
+        <div class="hr" id="hr"></div>
+      </div>
+      <div class="min">
+        <div class="mn" id="mn"></div>
+      </div>
+      <div class="sec">
+        <div class="sc" id="sc"></div>
+      </div>
+    </div>
+
+    <div id="disitalClock">
+      <div id="ampm"></div>
+      <div id="hour"></div>
+      <div id="minutes"></div>
+      <div id="seconds"></div>
+    </div>
+    <div class = "color-selector">
+      <p>Color Selector</p>
+      <button class="Black" value="black" onclick="changeColor(this.value)">Black</button>
+      <button class="white" value = "white"onclick="changeColor(this.value)">white</button>
+      <button class="chroma-key-w"value = "chkw"onclick="changeColor(this.value)">chromakey White</button>
+      <button class="chroma-key-b"value = "chkb"onclick="changeColor(this.value)">chromakey Black</button>
+    </div>
+  </body>
+</html>
