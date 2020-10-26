@@ -28,12 +28,13 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: 100vh;
-  background-color: #005500;
+  background-color: black;
 }
 .clock {
   width: 350px;
   height: 350px;
   display: flex;
+  margin: 50px;
   justify-content: center;
   align-items: center;
   z-index: 10001;
