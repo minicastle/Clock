@@ -5,13 +5,28 @@
   font-family: "Sansita Swashed", cursive;
 }
 
+.nav-bar {
+  display: flex;
+  padding: 3%;
+  width: 100%;
+  font-size: 30px;
+  color: white;
+  background-color: black;
+  justify-content: space-between;
+}
+.nav-bar .contents i {
+  border: 2px solid gray;
+  background-color: gray;
+  padding: 5px 5px 5px 5px;
+  border-radius: 8px;
+}
+
 body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 5%;
   flex-direction: 100vh;
   background-color: #005500;
 }
