@@ -13,11 +13,21 @@ class Timer extends React.Component{
             TimerSet: "Basic"
         };
     }
+    // getTimerContents(){
+    //     let _contetents;
+    //     if(this.state.TimerSet === Basic){
+    //         _contetents = (
+    //         );
+    //     }
+    // }
     render(){
         return (
             <div className = "Timer-body">
                 <header>Timer</header>
                 <div className = "Timer">
+
+                </div>
+                <div className = "Timer-contents">
                     <div className = "TimePlusContents">
                         <button onClick = {function(e){
                             e.preventDefault();

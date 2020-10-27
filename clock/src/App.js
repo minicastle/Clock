@@ -15,7 +15,6 @@ class App extends React.Component {
   getContents(){
     let _contents;
     if(this.state.Mode === "Clock"){
-      setInterval(time);
       _contents = (<Clock color = {this.state.color}></Clock>);
     }
     else if(this.state.Mode === "Timer"){
@@ -33,6 +32,7 @@ class App extends React.Component {
           <div class="contents">
             <span class="fas fa-clock" onClick = {function(){
               this.setState({Mode:"Clock"});
+              window.location.reload();
             }.bind(this)}> Clock</span>
             <span class="fas fa-stopwatch" onClick = {function(){
               this.setState({Mode:"Timer"});
