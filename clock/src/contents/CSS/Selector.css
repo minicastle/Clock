@@ -1,0 +1,29 @@
+.selector-body {
+  display: flex;
+  justify-content: center;
+}
+.color-selector {
+  display: flex;
+  margin: 20px 0 50px 0;
+  flex-direction: column;
+  border: 2px solid skyblue;
+  padding: 5px 5px 0 5px;
+  border-radius: 8px;
+}
+.color-selector p {
+  color: skyblue;
+  font-size: 30px;
+  padding: 0 0 5px 8px;
+}
+.Black,
+.white,
+.chroma-key-w,
+.chroma-key-b {
+  width: 200px;
+  height: auto;
+  font-size: large;
+  margin-bottom: 5px;
+  background-color: skyblue;
+  border: none;
+  border-radius: 5px;
+}

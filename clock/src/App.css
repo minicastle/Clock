@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sansita Swashed", cursive;
+}
+.nav-bar {
+  display: flex;
+  padding: 2%;
+  width: 100%;
+  font-size: 30px;
+  color: white;
+  background-color: black;
+  justify-content: space-between;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+}
+.nav-bar .contents span {
+  border: 2px solid gray;
+  background-color: gray;
+  margin-left: 10px;
+  padding: 5px 5px 5px 5px;
+  border-radius: 8px;
+}
